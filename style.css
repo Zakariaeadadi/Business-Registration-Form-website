@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(246, 241, 235);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    max-width: 600px;
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #444;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 26px;
+}
+
+#formule {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fefefe;
+    font-size: 16px;
+    width: 100%;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+#radio {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#skills {
+    height: 120px;
+    border: 2px solid #4caf50;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+#skills option {
+    padding: 5px;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: aquamarine;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn button:hover {
+    background-color: rgb(38, 121, 148);
+    color: white;
+}
+
+
+#box {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e7f3fe;
+    border: 1px solid #90caf9;
+    border-radius: 10px;
+    font-family: sans-serif;
+  }
